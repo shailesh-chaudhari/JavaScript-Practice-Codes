@@ -95,7 +95,7 @@ console.table([accountId,accountEmail,accountPassword,accountCity,accuntState]) 
 
 
 
-console.log("****************************************");
+console.log("*********** chai or code 1 st challange *****************************");
 //Activity 1 variable decleration 
 console.log("Activity 1 variable decleration ");
 var vNum = 123;
