@@ -73,6 +73,9 @@ console.log(num);// null null is a value which is stored in this variable or num
 console.log(undefined == null) // true 
 console.log(undefined === null) // false 
 
+
+
+
 console.log("********************************************************");
 
 const accountId = 121 //once const is declared not to be change 
@@ -90,6 +93,89 @@ accountCity="bengluru"
 console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountCity,accuntState]) // it showed all output in tabular or table form
 
+
+
+console.log("****************************************");
+//Activity 1 variable decleration 
+console.log("Activity 1 variable decleration ");
+var vNum = 123;
+console.log(vNum);
+
+let lNum = 321;
+console.log(lNum);
+
+//Activity 2 constant decleration 
+console.log("Activity 2 constant decleration ");
+const cNum = true;
+const cNum1 = false;
+
+console.log(cNum);
+console.log(cNum1);
+
+
+//data types and feature request 1 
+//variable type console log
+console.log("Activity 3 data types ");
+
+let dNum = 123;
+var dNum1 = 321;
+const dNum2 = 54;
+let dStr = "type of string "
+let dBoolean = true;
+let dCar = {
+    "swift": " 100 kmph",
+    "thar": "130kmph",
+    "bmw": "200 kmph"
+}
+let dNull = null;
+let dUndefined = undefined;
+
+let dArr = ["swift", "thar", "bmw"]
+console.table([dNum, dNum1, dNum2, dStr, dBoolean, dCar, dArr, dNull, dUndefined])
+console.table([typeof (dNum), typeof (dNum1), typeof (dNum2), typeof (dStr), typeof (dBoolean), typeof (dCar), typeof (dArr), typeof (dNull), typeof (dUndefined)])
+
+//Reassigning variables 
+console.log("Activity 4 Reassigning variables ");
+
+let initialValue = 40
+console.log(initialValue);
+initialValue = 60
+console.log(initialValue);
+
+
+//Understanding Constant  and feature request 2 
+//Reassignment demo 
+console.log("Activity 5 Understanding Constant");
+
+var variableNumber = 20;
+let letNumber = 25;
+const constNumber = 30;
+
+
+try {
+    var variableNumber = 35;
+    let letNumber = 40;
+    const constNumber = 45;
+    console.log(variableNumber); //35
+    console.log(letNumber); //40
+    console.log(constNumber);//45
+
+    console.log("**********************************************");
+    variableNumber = 60;
+    letNumber = 65;
+    // constNumber = 70; // Assignment to constant variable error 
+    console.log(variableNumber);//60 
+    console.log(letNumber); //65
+    console.log(constNumber);//45
+
+} catch (error) {
+    console.log(error.message);
+}
+
+console.log("**********************************************");
+console.log(variableNumber); //60
+console.log(letNumber); //25
+console.log(constNumber);//30
 
 
 
