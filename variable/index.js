@@ -72,3 +72,25 @@ console.log(num);// null null is a value which is stored in this variable or num
 
 console.log(undefined == null) // true 
 console.log(undefined === null) // false 
+
+console.log("********************************************************");
+
+const accountId = 121 //once const is declared not to be change 
+let accountEmail = "ram@gmail.com"
+var accountPassword = "12345" //because of block scope and functional scope prefer not to be used t var sometimes major projects if any changes in var variable it change all code recommended to used let 
+accountCity = "mumbai" // bad practice not recommended to use 
+
+let accuntState;//undefined not assigned any value 
+
+//accountId = 2 // showed error not allowed because accountId is declared as const constant value not to be changed 
+accountEmail ="r@r.com"
+accountPassword ="345"
+accountCity="bengluru"
+
+console.log(accountId);
+console.table([accountId,accountEmail,accountPassword,accountCity,accuntState]) // it showed all output in tabular or table form
+
+
+
+
+
