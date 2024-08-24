@@ -1,3 +1,46 @@
+//while loop when you have the kind of loop where you need to stop the loop based on the condition you can used while loop 
+var mValue = 0;
+while (mValue < 50) {
+    mValue++;
+}
+console.log(mValue);//50
+console.log('********************************************************');
+
+
+
+//for loop when you know how many times your loop need to iterate then you can use for loop 
+mList = [1, 2, 3, 4, 5];
+var pos;
+for (pos = 0; pos < mList.length; pos++) {
+    console.log('position is ' + pos + ' and value is ' + mList[pos]);
+}
+
+console.log('********************************************************');
+//break keyword it exits the loop 
+var pos;
+for (pos = 0; pos < mList.length; pos++) {
+    if (pos >= 3) break;
+    console.log('position is ' + pos + ' and value is ' + mList[pos]);
+}
+
+console.log('********************************************************');
+//continue keyword it starts the next iteration without executing any further 
+//for even 
+var pos;
+for (pos = 0; pos < mList.length; pos++) {
+    if (pos % 2 === 0) continue;
+    console.log('position is ' + pos + ' and value is ' + mList[pos]);
+}
+
+console.log('********************************************************');
+//for odd 
+var pos;
+for (pos = 0; pos < mList.length; pos++) {
+    if (pos % 2 !== 0) continue;
+    console.log('position is ' + pos + ' and value is ' + mList[pos]);
+}
+
+
 
 //Activity 1
 //Task 1
