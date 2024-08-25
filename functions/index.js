@@ -1,3 +1,64 @@
+function mSum() {
+    var num1 = 10;
+    var num2 = 20;
+    var sum = num1 + num2;
+    console.log(sum);
+}
+mSum();//30
+
+console.log('*************************');
+
+function mSum1() {
+    var num3 = 10;
+    var num4 = 20;
+    var sum1 = num3 + num4;
+    return sum1;
+}
+mSum1();
+console.log(mSum1());//30
+
+console.log('*************************');
+function mSum2() {
+    var num5 = 10;
+    var num6 = 20;
+    var sum2 = num5 + num6;
+    return sum2;
+    console.log('print somthing ');
+}
+
+var totalSum = 100 + mSum2();
+console.log(totalSum);
+
+
+console.log('*************************');
+function greetings(personName) {
+    console.log('welcome ' + personName);
+}
+greetings('Ramesh');
+
+
+console.log('*************************');
+function totalSum1(numbe1, number2, number3 = 40, number4) {
+    console.log('number1 is ' + numbe1);
+    console.log('number2 is ' + number2);
+    console.log('number3 is ' + number3);// if dont pass any argumet then number 3 returns 40 value if passed number 3 as argument eg 58 then it returns 58.
+    console.log('number4 is ' + number4);
+    if (number4 !== undefined) {
+        console.log(numbe1 + number2 + number3 + number4);
+    } else {
+        console.log(numbe1 + number2 + number3);
+    }
+
+
+}
+totalSum1(3, 6);//3,6,40 total 49 number3 is default as 40 and no 3rd argument passed here so it returns default value 
+console.log('*************************');
+totalSum1(43, 45, 58);//43,45,58 total 146 
+//totalSum1(43,45,58,78,54,45);if more argument passed then JS not getting error it automatically consider number 1  to number 4 and next all values are ignored 
+
+
+
+
 
 //Activity 1: Function Declaration
 //Task 1
