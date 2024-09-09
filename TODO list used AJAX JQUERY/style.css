@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topbar {
+    padding: 20px;
+    margin-right: 5px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    background-color: lightblue;
+    text-align: center;
+    color: darkred;
+    font-size: 24px;
+}
+
+#todo-count {
+    margin-left: 8px;
+    font-size: 24px;
+    color: blue;
+}
+
+#add-item,
+#update-item,
+#remove-item {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-right: 36px;
+    padding: 12px 24px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#todo-list {
+    margin-left: 335px;
+    margin-right: 410px;
+    text-align: left;
+    font-size: 24px;
+}
+
+#todo-input {
+    font-size: 24px;
+    padding: 12px 24px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+ul li {
+    background-color: white;
+    margin: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style: none;
+
+}
